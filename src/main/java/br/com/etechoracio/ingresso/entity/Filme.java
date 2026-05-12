@@ -23,9 +23,8 @@ public class Filme {
     @Column(name = "TX_NOME")
     private String nome;
 
-    @Enumerated(EnumType.STRING)
     @Column(name = "NR_DURACAO")
-    private Duration duracao;
+    private int duracao;
 
     @Column(name = "NR_ANO")
     private Integer ano;
@@ -54,7 +53,7 @@ public class Filme {
     @Column(name = "TX_DESCRICAO")
     private String descricao;
 
-    @Column(name = "NR_AVALICAO")
+    @Column(name = "NR_AVALIACAO")
     private Double avaliacao;
 
 }
